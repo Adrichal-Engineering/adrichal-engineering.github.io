@@ -7,9 +7,9 @@
 	
 	<meta name="author" content="Adrichal Engineering">
 	<link rel="shortcut icon" href="favicon.png">
-
+    <link rel="icon" href="favicon.ico">
 	<meta name="description" content="Adrichal Engineering" />
-	<meta name="keywords" content="architecture, design" />
+	<meta name="keywords" content="architecture, design, adrichal" />
 	
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
@@ -81,7 +81,11 @@
 					<h1 class="mb-5 text-center"><span>Contact Us</span></h1>
 					<div class="intro-desc text-left">
 						<div class="line"></div>
-						<p>hello@adrichal.org</p>
+						<p>
+							<a href="mailto:hello@adrichal.org" style="color: white; font-weight: bold; text-decoration: none;">
+								hello@adrichal.org
+							</a>
+						</p>
 					</div>
 				</div>
 			</div>
@@ -97,48 +101,51 @@
 					<p class="text-black-50">We would be pleased if you contact us at any time.</p>
 				</div>
 			</div>
-			<form class="row">
+	<form class="row" action="https://formsubmit.co/hello@adrichal.org" method="POST">
+  
+  <!-- hidden ayarlar -->
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_next" value="https://adrichal.org/thanks.html">
 
-				<div class="col-md-6 col-lg-6">
-					<div class="mb-3">
-						<label for="name" class="ps-3 mb-2">Name Surname</label>
-						<input type="text" class="form-control" id="name">
-					</div>
-				</div>
+  <div class="col-md-6 col-lg-6">
+    <div class="mb-3">
+      <label for="name" class="ps-3 mb-2">Name Surname</label>
+      <input type="text" class="form-control" id="name" name="name" required>
+    </div>
+  </div>
 
-				<div class="col-md-6 col-lg-6">
-					<div class="mb-3">
-						<label for="email" class="ps-3 mb-2">E-mail</label>
-						<input type="text" class="form-control" id="email">
-					</div>
-				</div>
+  <div class="col-md-6 col-lg-6">
+    <div class="mb-3">
+      <label for="email" class="ps-3 mb-2">E-mail</label>
+      <input type="email" class="form-control" id="email" name="email" required>
+    </div>
+  </div>
 
-				<div class="col-md-6 col-lg-6">
-					<div class="mb-3">
-						<label for="phone" class="ps-3 mb-2">Phone</label>
-						<input type="text" class="form-control" id="phone">
-					</div>
-				</div>
+  <div class="col-md-6 col-lg-6">
+    <div class="mb-3">
+      <label for="phone" class="ps-3 mb-2">Phone</label>
+      <input type="text" class="form-control" id="phone" name="phone">
+    </div>
+  </div>
 
-				<div class="col-md-6 col-lg-6">
-					<div class="mb-3">
-						<label for="subject" class="ps-3 mb-2">Subject</label>
-						<input type="text" class="form-control" id="subject">
-					</div>
-				</div>
+  <div class="col-md-6 col-lg-6">
+    <div class="mb-3">
+      <label for="subject" class="ps-3 mb-2">Subject</label>
+      <input type="text" class="form-control" id="subject" name="subject">
+    </div>
+  </div>
 
-				<div class="col-md-12 col-lg-12">
-					<div class="mb-3">
-						<label for="message" class="ps-3 mb-2">Message</label>
-						<textarea class="form-control" name="" id="message" cols="30" rows="7"></textarea>
-					</div>
-				</div>
+  <div class="col-md-12 col-lg-12">
+    <div class="mb-3">
+      <label for="message" class="ps-3 mb-2">Message</label>
+      <textarea class="form-control" id="message" name="message" cols="30" rows="7" required></textarea>
+    </div>
+  </div>
 
-				<div class="col-md-12">
-					<input type="submit" value="Send message" class="btn btn-primary">
-				</div>
-
-			</form>
+  <div class="col-md-12">
+    <input type="submit" value="Send message" class="btn btn-primary">
+  </div>
+</form>
 		</div>
 	</div>
 	
@@ -151,9 +158,11 @@
 					<div class="widget">
 						<h3 class="line-top">About</h3>
 						<p class="mb-5">Adrichal is a multidisciplinary architecture and engineering firm specialized in delivering design and technical support services for airports, mining facilities and mission-critical infrastructures such as data centers.</p>
-						<p class="mb-5"><span style="color: red;">Goosey, Inc.</span> services are provided under its roof.</p>
-
-                        <p class="mb-5">hello@adrichal.org</p>
+						<p class="mb-5">
+						<a href="https://goosey.org" style="color: red; font-weight: bold; text-decoration: none;">
+							Goosey, Inc. </a> services are provided under its roof. </p>
+						<a href="mailto:hello@adrichal.org" <a href="mailto:hello@adrichal.org" style="font-weight: bold; color: black; text-decoration: none;">
+							hello@adrichal.org </a>
 					</div>
 					<div class="widget">
 						<h3 class="line-top">Connect us</h3>
