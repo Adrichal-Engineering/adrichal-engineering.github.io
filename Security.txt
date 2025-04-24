@@ -1,7 +1,0 @@
-# Security Team for Adrichal Engineering
-Contact: mailto:hello@adrichal.org
-Encryption: https://adrichal.org/pgp-key
-Acknowledgements: https://adrichal.org/acknowledgements
-Policy: https://adrichal.org/policy
-Preferred-Languages: en, tr, az
-Hiring: https://adrichal.org/careers
