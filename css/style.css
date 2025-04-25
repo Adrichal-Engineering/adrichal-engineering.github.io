@@ -14,6 +14,22 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
+.logo-letter {
+  width: 64px;
+  height: 64px;
+  background-color: #000; /* black */
+  color: #fff; /* Logo */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 800;
+  border-radius: 12px;
+  margin: 0 auto 1rem;
+  font-family: 'Inter', sans-serif;
+}
+
+
 #backToTop {
   position: fixed;
   bottom: 30px;
@@ -26,7 +42,7 @@
   border-radius: 50%;
   font-size: 20px;
   cursor: pointer;
-  display: none; /* Başta gizli, scroll olunca görünecek */
+  display: none; /* Scrolls */
   transition: all 0.3s ease;
 }
 
